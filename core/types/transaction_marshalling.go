@@ -507,6 +507,8 @@ func (tx *Transaction) UnmarshalJSON(input []byte) error {
 			}
 		}
 
+	case BaseSpecialType1:
+		return nil
 	case PolygonSpecialType1:
 		return nil
 	default:

@@ -51,6 +51,7 @@ const (
 	BlobTxType       = 0x03
 	SetCodeTxType    = 0x04
 
+	BaseSpecialType1    = 0x7e
 	PolygonSpecialType1 = 0x7f // 展位，不会解析数据
 )
 
