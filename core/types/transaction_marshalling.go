@@ -507,6 +507,8 @@ func (tx *Transaction) UnmarshalJSON(input []byte) error {
 			}
 		}
 
+	case PolygonSpecialType1:
+		return nil
 	default:
 		return ErrTxTypeNotSupported
 	}

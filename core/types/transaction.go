@@ -50,6 +50,8 @@ const (
 	DynamicFeeTxType = 0x02
 	BlobTxType       = 0x03
 	SetCodeTxType    = 0x04
+
+	PolygonSpecialType1 = 0x7f // 展位，不会解析数据
 )
 
 // Transaction is an Ethereum transaction.
